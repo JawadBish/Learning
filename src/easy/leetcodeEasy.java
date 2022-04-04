@@ -43,10 +43,10 @@ public class leetcodeEasy {
     public static void main(String[] args) {
 
         //System.out.println("Welcome to Learning : " + solutionOfMissingInteger1(new int[] {-1}));
-        //System.out.println("Welcome to Learning : " + solutionOfMissingInteger2(new int[] {-1}));
-        binaryGap(4);
-        int num = 11;
-        System.out.println(num % 10);
+        System.out.println("Welcome to Learning : " + solutionOfMissingInteger2(new int[] {1,2,3}));
+        //binaryGap(4);
+        //int num = 11;
+        //System.out.println(num % 10);
 
     }
 

@@ -4,7 +4,7 @@ public class RemoveDuplicates {
 
     public static int removeDuplicates(int[] nums) {
         /*
-         *   0 1 2 3 4 5   length = 6
+         *   0 1 1 3 4 5   length = 6
          *  [1,1,2,3]
          *
          */
@@ -22,7 +22,7 @@ public class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        int[] arr = {0,0,1,1,1,2,2,3,3,4};
+        int[] arr = {0,0,1,1,2};
         System.out.println("index : " + removeDuplicates(arr));
     }
 
